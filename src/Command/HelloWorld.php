@@ -18,8 +18,8 @@ class HelloWorld extends Command
     protected function configure()
     {
         $this
-        ->setDescription('Buat user baru.')
-        ->setHelp('Perintah konsole ini "kononnya" akan membuat user baru...');
+        ->setDescription('Ini adalah console untuk membuat hello world.')
+        ->setHelp('Perintah ini akan mencetak hello world...');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
